@@ -12,7 +12,7 @@ import { Footer } from '@/components/Footer';
 
 export default function Home() {
   useEffect(() => {
-    document.title = 'Sarthak Jain | Software Engineer';
+    document.title = 'Mubarak Shifa | Data & Security Engineer';
   }, []);
 
   return (

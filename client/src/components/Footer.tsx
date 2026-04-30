@@ -1,11 +1,11 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 import { trackExternalLink } from '@/lib/analytics';
 import { useReveal } from '@/hooks/useReveal';
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, url: 'https://github.com/SarthakJain2' },
-  { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/sarthak-jain2/' },
-  { name: 'Twitter', icon: Twitter, url: 'https://x.com/sarthak_jain1' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/mshifa06' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/mubarak-shifa-414750329/' },
+  { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/mubarak._shifa/' },
 ];
 
 export function Footer() {
@@ -45,7 +45,7 @@ export function Footer() {
             style={{ transitionDelay: '300ms' }}
             data-testid="text-copyright"
           >
-            © {currentYear} Sarthak Jain. All rights reserved.
+            © {currentYear} Mubarak Shifa. All rights reserved.
           </p>
         </div>
       </div>

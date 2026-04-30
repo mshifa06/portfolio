@@ -57,14 +57,14 @@ export function Hero() {
   }, []);
 
   const { displayText: nameText, isComplete: nameComplete } = useTypewriter(
-    'Sarthak Jain',
+    'Mubarak Shifa',
     100,
     startName,
     () => setTimeout(() => setStartBio(true), 400)
   );
 
   const { displayText: bioText, isComplete: bioComplete } = useTypewriter(
-    'Crafting elegant solutions to complex problems. Specializing in backend and full-stack development, AI/ML engineering, system design, and developer experience.',
+    'Crafting resilient and data-driven solutions to modern technical challenges. Specializing in security analysis, data engineering, system hardening, and AI-powered automation.',
     18,
     startBio,
     () => setTimeout(() => setShowButtons(true), 300)
@@ -98,7 +98,7 @@ export function Hero() {
       <div className="max-w-5xl mx-auto px-6 py-32 relative z-10">
         <div className="space-y-6">
           <p className="text-sm font-mono text-muted-foreground tracking-wide uppercase animate-fade-in-up">
-            Software Engineer
+            Data & Security Engineer
           </p>
           
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-balance min-h-[1.2em]">

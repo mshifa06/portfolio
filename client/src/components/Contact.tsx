@@ -26,12 +26,12 @@ export function Contact() {
               style={{ transitionDelay: '100ms' }}
             >
               I'm always open to discussing new opportunities, interesting projects, 
-              or just having a chat about technology and design. Feel free to reach out.
+              or just generally having a chat. Feel free to reach out.
             </p>
 
             <div ref={cardsRef} className="space-y-4">
               <a
-                href="mailto:sjain1@seas.upenn.edu"
+                href="mailto:mubarakshifa06@gmail.com"
                 onClick={() => trackContactAction('email')}
                 className={`card-animate flex items-center gap-4 p-4 bg-card border border-border rounded-lg group reveal ${cardsRevealed ? 'revealed' : ''}`}
                 style={{ transitionDelay: '100ms' }}
@@ -42,7 +42,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">sjain1@seas.upenn.edu</p>
+                  <p className="font-medium">mubarakshifa06@gmail.com</p>
                 </div>
               </a>
 
@@ -55,7 +55,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium" data-testid="text-location">New York City, NY</p>
+                  <p className="font-medium" data-testid="text-location">Philadelphia, PA</p>
                 </div>
               </div>
             </div>
@@ -65,7 +65,9 @@ export function Contact() {
               style={{ transitionDelay: '300ms' }}
             >
               <a
-                href="mailto:sjain1@seas.upenn.edu?subject=Hello from your portfolio"
+                href="https://mail.google.com/mail/?view=cm&to=mubarakshifa06@gmail.com&su=Hello from your portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => trackContactAction('send_message')}
                 className="btn-animate inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium"
                 data-testid="button-send-message"

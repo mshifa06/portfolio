@@ -3,14 +3,14 @@ import { useReveal } from '@/hooks/useReveal';
 const experiences = [
   {
     id: 1,
-    role: 'Incoming Fall Software Engineer Intern',
-    company: 'Google',
-    companyUrl: 'https://google.com/',
-    period: 'August 2026 - November 2026',
-    description: 'Incoming Fall 2026 intern working on backend systems within Google Cloud, focusing on scalable infrastructure and data systems.',
-    highlights: ['Distributed Systems', 'Backend Engineering', 'Reliability at Scale'],
+    role: 'Data Engineer Intern',
+    company: 'PromptlyAI',
+    //companyUrl: 'https://staronewireless.com/',
+    period: 'August 2025 - November 2025',
+    description: 'Built an end-to-end internal reporting platform that scaled data delivery across teams, automating high-volume report access and migrating large datasets from DynamoDB to Redshift to support reliable, self-serve analytics.',
+    highlights: ['Distributed Systems', 'System Design', 'Data Engineering', 'Reliability at Scale'],
   },
-  {
+/*  {
     id: 2,
     role: 'Incoming Summer Software Engineer Intern',
     company: 'Robinhood',
@@ -64,6 +64,7 @@ const experiences = [
     description: 'Worked on core Web3 protocol infrastructure, building zero-knowledge rollups and developer tooling to issue and consume verifiable credentials at scale.',
     highlights: ['Rust', 'Web3 Infrastructure', 'Developer Experience', 'Protocol Engineering'],
   },
+*/  
 ];
 
 function ExperienceItem({ exp, index }: { exp: typeof experiences[0]; index: number }) {

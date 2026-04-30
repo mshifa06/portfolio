@@ -56,7 +56,7 @@ export function Header() {
           onClick={() => trackNavClick('home', 'header')}
           data-testid="link-home"
         >
-          SJ
+          MS
         </a>
 
         <div className="hidden md:flex items-center gap-8">

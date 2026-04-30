@@ -4,7 +4,7 @@ export function About() {
   const { ref: sectionRef, isRevealed } = useReveal({ threshold: 0.2 });
   const { ref: techRef, isRevealed: techRevealed } = useReveal({ threshold: 0.3 });
 
-  const technologies = ['C++', 'Java', 'Python', 'SQL', 'TypeScript', 'JavaScript', 'React.js', 'AWS', 'Docker', 'RestAPI', 'Git', 'PyTorch', 'Pandas', 'NumPy'];
+  const technologies = ['Java', 'Python', 'SQL', 'TypeScript', 'JavaScript', 'React.js', 'AWS', 'Docker', 'RestAPI', 'Git', 'PyTorch', 'Pandas', 'NumPy'];
 
   return (
     <section id="about" className="py-24 md:py-32">

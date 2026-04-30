@@ -5,14 +5,14 @@ import { useReveal } from '@/hooks/useReveal';
 const projects = [
   {
     id: 1,
-    title: 'Monitord',
-    description: 'System monitoring solution built with a high-performance HTTP server in modern C++17. Provides real-time monitoring of system resources (CPU, memory, disk, network) with a web dashboard, WebSocket support for live updates, and alerting.',
-    tech: ['C++', 'CMake', 'JavaScript', 'WebSocket', 'RestAPI'],
+    title: 'RoadMind',
+    description: 'AI-powered road defect detection system built with OpenCV and TensorFlow on AWS. Automates identification of potholes and hazardous infrastructure across high-traffic corridors, with a MySQL backend for model output management and a Power BI dashboard for real-time geographic visualization of road conditions and maintenance priorities.',
+    tech: ['Python', 'OpenCV', 'TensorFlow', 'MySQL', 'RestAPI'],
     liveUrl: 'https://example.com',
-    sourceUrl: 'https://github.com/SarthakJain2/monitord',
+    //sourceUrl: 'https://example.com', //put github link here when completed, example: https://github.com/mshifa06/RoadMind
     featured: true,
   },
-  {
+  /*{
     id: 2,
     title: ' Predictive NBA Contract Valuation Model',
     description: 'Data-driven model that estimates fair NBA player contract values by analyzing on-court performance, salary history, injury data, team context, and player popularity to identify under- and overvalued players.',
@@ -39,6 +39,7 @@ const projects = [
     sourceUrl: 'https://github.com/SarthakJain2/distributed-cache-raft',
     featured: false,
   },
+  */
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0]; index: number }) {
@@ -116,8 +117,7 @@ export function Projects() {
             style={{ transitionDelay: '150ms' }}
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              A selection of projects I've worked on. Some are professional work, 
-              others are side projects and experiments.
+              A selection of projects I've worked on. Please note that some projects are still in development.
             </p>
           </div>
         </div>
